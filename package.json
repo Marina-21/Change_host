@@ -1,0 +1,27 @@
+{
+  "name": "changehost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stage": "cross-env ENVARMENT=STAGE node update-url",
+    "prod": "cross-env ENVARMENT=PROD node update-url",
+    "prod_com": "cross-env ENVARMENT=PROD_COM node update-url",
+    "prod_ua": "cross-env ENVARMENT=UA node update-url",
+    "stage_ru": "cross-env ENVARMENT=STAGE_RU node update-url",
+    "stage_by": "cross-env ENVARMENT=STAGE_BY node update-url",
+    "stage_br": "cross-env ENVARMENT=STAGE_BR node update-url",
+    "stage_global": "cross-env ENVARMENT=STAGE_GLOBAL node update-url",
+    "stage_in": "cross-env ENVARMENT=STAGE_IN node update-url",
+    "stage_ke": "cross-env ENVARMENT=STAGE_KE node update-url",
+    "stage_ng": "cross-env ENVARMENT=STAGE_NG node update-url",
+    "stage_pk": "cross-env ENVARMENT=STAGE_PK node update-url",
+    "stage_tz": "cross-env ENVARMENT=STAGE_TZ node update-url",
+    "stage_uz": "cross-env ENVARMENT=STAGE_UZ node update-url"
+  },
+  "author": "",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0"
+  }
+}
