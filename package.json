@@ -17,7 +17,10 @@
     "stage_ng": "cross-env ENVARMENT=STAGE_NG node update-url",
     "stage_pk": "cross-env ENVARMENT=STAGE_PK node update-url",
     "stage_tz": "cross-env ENVARMENT=STAGE_TZ node update-url",
-    "stage_uz": "cross-env ENVARMENT=STAGE_UZ node update-url"
+    "stage_uz": "cross-env ENVARMENT=STAGE_UZ node update-url",
+    "stage_tj": "cross-env ENVARMENT=STAGE_TJ node update-url",
+    "stage_kz": "cross-env ENVARMENT=STAGE_KZ node update-url",
+    "stage_ir": "cross-env ENVARMENT=STAGE_IR node update-url"
   },
   "author": "",
   "dependencies": {
