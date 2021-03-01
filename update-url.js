@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const filePath = '/Users/maryna.ratova/Documents/Parimatch/app/src/main/java/com/parimatch/data/remoteconfig/RemoteConfigRepository.kt';
 
-const value = process.env[process.env.ENVARMENT];
+const value = process.env[process.env.ENVIRONMENT];
 console.log(value);
 const inputValue = value.split(',');
 console.log(inputValue);
@@ -46,7 +46,7 @@ readFile(filePath).then((data) => {
     needUpdate = true;
 
     result.forEach((item, index) => {
-      updateData = updateData.replace(item, `= BaseUrl(${inputValue[index]})`);   
+      updateData = updateData.replace(item, `= BaseUrl(${inputValue[index]})`);
     });
   }
 
